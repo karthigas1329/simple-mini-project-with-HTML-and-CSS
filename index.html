@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+{%load static%}
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link ref="stylesheet" href="/css/style.css">
+	<title>kajals</title>
+</head>
+<body>
+	<div>
+		<h1 style="background-color:black;color:lightseagreen;text-align: center;font-size: 35px;padding-bottom: 30px;padding-top: 30px;"><strong>LIPSTICK WORLD</strong><br>
+			<p style="text-align: center; color:lightseagreen;font-family:sans-serif;font-size: 20px;">Wear confidence as your lipstick shade</p>
+		</h1>
+		</div>
+	<nav style="line-height: 2.5;color: white;background-color: black;">
+		
+		<ul style="background-color: pink;display: flex;align-items: center;justify-content: space-between;">
+			<li style="display: inline;"><a href="#">HOME   / </a></li>
+			<li style="display: inline;"><a href="#">PRODUCTS   / </a></li>
+			<li style="display: inline;"><a href="#">FEATURES   / </a></li>
+			<li style="display: inline;"><a href="#">CONTACTS   </a></li>
+		</ul>
+	</nav>
+	<div class="searchbar" style="text-align: center;
+    padding: 30px;">
+            <!--Step 12 Inside div create a input field with placeholder
+            Search
+            -->
+            <input type="text" placeholder="Search">  
+            <!--Step 13 Go back to style.css and style searchbar--> 
+        </div>
+
+	<div class="products" style=" text-align: center;
+    padding: 30px;">
+		<div class="box" style=" border: solid black 2px;
+    text-align: center;
+    width: 220px;
+    display: inline-block;">
+			<img style="width: 220px;" src="{%static 'images/lip.jpg'%}" alt="lipstick">
+				<p>Pink Line Matte Lipstick 3.8gm,Rich Red (Pack of 24)</p>
+		</div>
+		<div class="box" style= "border: solid black 2px;
+    text-align: center;
+    width: 220px;
+    display: inline-block;">
+			<img style="width: 220px;" src="{%static 'images/lip1.jpg' %}" alt="lipstick">
+				<p>Kiss Beauty Waterproof Mate Lipstick, 43% OFF</p>
+		</div>
+		<div class="box" style=" border: solid black 2px;
+    text-align: center;
+    width: 220px;
+    display: inline-block;">
+			<img style="width: 208px;" src="{%static 'images/lip2.jpg' %}" alt="lipstick">
+			<p>Kiss Beauty Super Matte Lipstick 24 Pcs</p>
+		</div>
+	</div>
+	<div style="text-align: center;">
+    <div class="about" style="margin-top: 10px; text-align: center;">
+        <h1 style="text-decoration: underline;">About Us</h1>
+        <p style="padding: 20px;
+    font-size: larger;">Lipsticks are an important part of makeup routines and hence the markets are overloaded with plenty of brands of lipsticks. We have compiled a list of the best lipstick brands with relevant and in-depth information. This information will help you choose the best one for you according to your preferences and choices.
+
+		Our highly recommended and best brands are categorized according to quality, budget, longevity, and moisturizing. Let us discuss important and comprehensive information about the best lipstick brand in India. </p>
+    </div>
+    </div>
+
+    <!--Footer-->
+    <!--Step 32 create a footer tag -->
+        <footer>
+            <!--Step 33 inside footer tag 
+                create a class called contact -->
+            <div class="contact" style="padding-bottom: 35px;">
+                
+                <!--Step 34 inside contact class
+                create h3 and p,p tag -->
+
+                
+                <h3 style="text-align: center;">Contact</h3>
+                <p style="margin-top: 5px;text-align: center;">+91 8248714314 <br>
+                    sticky@gmail.com
+                </p>
+
+            </div>
+            <!--step 35 go back to css-->
+
+            <!--Step 38 create the last p tag-->
+           <p style="background-color: black;color: white;text-align: center;padding-bottom: 10px;padding-top: 10px;">
+            The rights provided under Copyright law include the rights of reproduction of the work, communication of the work to the public, adaptation of the work and translation of the work. The scope and duration of protection provided under copyright law varies with the nature of the protected work.
+
+            Copyright 1999-2023 by Refsnes Data. All Rights Reserved.
+           </p>
+        </footer>
+
+    </div>
+    </body>
+</html>
